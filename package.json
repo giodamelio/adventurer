@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "A web based choose your own adventure interface",
   "author": "Gio d'Amelio",
-  "main": "index.js",
+  "main": "src/index.js",
+  "dependencies": {
+      "rc": "^1.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/giodamelio/adventurer.git"
