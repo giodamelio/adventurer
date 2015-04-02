@@ -5,7 +5,8 @@
   "author": "Gio d'Amelio",
   "main": "src/index.js",
   "dependencies": {
-      "rc": "^1.0.1"
+    "colors": "^1.0.3",
+    "rc": "^1.0.1"
   },
   "repository": {
     "type": "git",

@@ -3,6 +3,7 @@ var fs = require("fs");
 var path = require("path");
 
 var rc = require("rc");
+var colors = require("colors");
 
 // Load config
 var config = rc("adventurer", {});
@@ -14,7 +15,7 @@ try {
     // Check that entry exists
     assert.ok(fs.existsSync(path.join(__dirname, config._[0])), "Entry file must exist");
 } catch (e) {
-    console.log(e.message);
+    console.log(e.message.red);
     process.exit(1);
 }
 
