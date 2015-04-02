@@ -1,0 +1,16 @@
+{
+  "name": "adventurer",
+  "version": "0.1.0",
+  "description": "A web based choose your own adventure interface",
+  "author": "Gio d'Amelio",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giodamelio/adventurer.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giodamelio/adventurer/issues"
+  },
+  "homepage": "https://github.com/giodamelio/adventurer"
+}
