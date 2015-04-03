@@ -1,0 +1,6 @@
+---
+type: "end"
+---
+
+The End
+
