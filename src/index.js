@@ -5,7 +5,8 @@ var util = require("util");
 
 var rc = require("rc");
 var colors = require("colors");
-var grayMatter = require("gray-matter");
+
+var parse = require("./parse");
 
 // Load config
 var config = rc("adventurer", {});
@@ -25,8 +26,12 @@ try {
     process.exit(1);
 }
 
-// Parse entry
-var entry = fs.readFileSync(entryFile);
-entry = grayMatter(entry.toString());
-console.log(util.inspect(entry));
+// Parse the story into a graph
+var entryFileName = path.basename(entryFile);
+var basePath = path.dirname(entryFile);
+var storyGraph = parse(entryFileName, basePath);
+
+console.log(util.inspect(storyGraph, {
+    depth: null
+}));
 
