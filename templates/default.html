@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ title }}</h1>
+    <div>{{ content | safe }}</div>
+    <ul>
+        {% for link in links %}
+        <li><a href="{{ link.filename }}">{{ link.text }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

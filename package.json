@@ -7,7 +7,9 @@
   "dependencies": {
     "colors": "^1.0.3",
     "gray-matter": "^2.0.0",
-    "rc": "^1.0.1"
+    "markdown-it": "^4.1.0",
+    "rc": "^1.0.1",
+    "swig": "^1.4.2"
   },
   "repository": {
     "type": "git",

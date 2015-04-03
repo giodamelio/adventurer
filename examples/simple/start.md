@@ -7,5 +7,5 @@ links:
       filename: "the_choice.md"
 ---
 
-Hello World
+**Hello World**
 
